@@ -1,6 +1,6 @@
 services:
   grafana:
-    image: grafana/grafana
+    image: grafana/grafana:9.5.3
     restart: always
     expose:
       - 3000
