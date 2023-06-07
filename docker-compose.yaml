@@ -70,9 +70,6 @@ services:
     depends_on:
       certgen:
         condition: service_completed_successfully
-    links:
-      - grafana
-      - influxdb
 volumes:
   influx-vol:
   certs:
